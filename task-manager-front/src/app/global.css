@@ -1,0 +1,103 @@
+.test{
+    background-color: black;
+}
+.body{
+    background-color: rgb(251, 207, 40);
+    background-image: linear-gradient(165deg, rgba(89, 131, 252, 1) 47%, rgba(41, 53, 86, 1) 100%);
+    background-size: auto;
+    background-position: left top;
+    background-repeat: repeat;
+}
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+.title-div{
+
+}
+.button-div {
+   float: right;
+
+}
+
+.fragment-div {
+
+}
+.task-div{
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.custom_input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+}
+
+.input {
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 25%;
+    outline: none;
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #C4D1EB;
+    border-radius: 5px;
+    box-shadow: 2px 4px 2px 0px #E2E2E2;
+    transition: .3s ease;
+}
+
+.input:focus {
+    background: #F2F2F2;
+    border: 1px solid #5A7EC7;
+    border-radius: 10px;
+}
+
+.input::placeholder {
+    color: #DDDDDD;
+}
+.btn{
+    margin-left: 15px;
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 245ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn:hover{
+
+    transition : 245ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}
+.button-div-test{
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.btn-finish{
+    color: black;
+}
